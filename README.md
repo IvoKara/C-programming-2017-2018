@@ -1,4 +1,4 @@
 # C-programming-2017-2018
-Commands not to forget:
-<i>gcc -Wall -pedantic -std=c11 file.c</i> - compile
-./a.out - see the output of the program
+<i>Commands not to forget:</i>
+<p>gcc -Wall -pedantic -std=c11 file.c -<strong>compile</strong></p>
+<p>./a.out - <strong>see the output of the program</strong></p>

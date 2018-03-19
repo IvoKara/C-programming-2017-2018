@@ -9,12 +9,12 @@
    <li>
        Rename executable file
     
-    gcc -o <new name> <C files>
+    gccl -o <new name> <C files>
    </li>
    <li>
        Compile to object file
     
-    gcc -c <C files>
+    gccl -c <C files>
    </li>
    <li>
        See optut of the program

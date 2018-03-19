@@ -1,7 +1,24 @@
 # C-programming-2017-2018
 <h3>Commands not to forget:</h3>
-<p>Compile</p>
-
-    gcc -Wall -pedantic -std=c11 file.c  
+<ul>
+   <li>
+       Compile
+       
+    gcc -Wall -pedantic -std=c11 <C files> 
+   </li>
+   <li>
+       Rename executable file
     
-<p>./a.out == <strong>see the output of the program</strong></p>
+    gcc -o <new name> <C files>
+   </li>
+   <li>
+       Compile to object file
+    
+    gcc -c <C files>
+   </li>
+   <li>
+       See optut of the program
+    
+    ./<exec file>
+   </li>
+</ul>    

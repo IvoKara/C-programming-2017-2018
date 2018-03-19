@@ -1,5 +1,5 @@
 # C-programming-2017-2018
-<h2>Commands not to forget:</h2>
+<h3>Commands not to forget:</h3>
 <p>Compile</p>
 
     gcc -Wall -pedantic -std=c11 file.c  

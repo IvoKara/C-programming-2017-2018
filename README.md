@@ -24,6 +24,10 @@
 </ul>   
 
 <h3>Makefiles</h3>
+<p>Structure</p>
+   
+      <target>: <dependancy list>
+      TAB <commands>
 <ul>
    <li>
    </li>

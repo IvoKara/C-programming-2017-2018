@@ -224,7 +224,7 @@ void enumer(char *filepath)
     j=1;
     for(i=0;!feof(f);i+=size)
     {
-        fseek(f,i,SEEK_SET);            ///като стигне на каря пак му казва да чете, затова става безкраен цикъл
+        fseek(f,i,SEEK_SET);            ///ГЄГ ГІГ® Г±ГІГЁГЈГ­ГҐ Г­Г  ГЄГ Г°Гї ГЇГ ГЄ Г¬Гі ГЄГ Г§ГўГ  Г¤Г  Г·ГҐГІГҐ, Г§Г ГІГ®ГўГ  Г±ГІГ ГўГ  ГЎГҐГ§ГЄГ°Г ГҐГ­ Г¶ГЁГЄГєГ«
         if(fread(&s,sizeof(s),1,f))
         {
             s.No=j;
@@ -407,10 +407,10 @@ void new_lessons(char *path_copy)
         fwrite(&s,sizeof(s),1,f);
         fclose(f);
         strcpy(predmet,s.name);
-        i=repeat(path_copy,predmet);           ///проверка дали е повече от един
+        i=repeat(path_copy,predmet);           ///ГЇГ°Г®ГўГҐГ°ГЄГ  Г¤Г Г«ГЁ ГҐ ГЇГ®ГўГҐГ·ГҐ Г®ГІ ГҐГ¤ГЁГ­
     }while(1);
     fclose(f);
-    sort_in_file(path_copy);                          ///ако се повтаря, обръща наобратно
+    sort_in_file(path_copy);                          ///Г ГЄГ® Г±ГҐ ГЇГ®ГўГІГ Г°Гї, Г®ГЎГ°ГєГ№Г  Г­Г Г®ГЎГ°Г ГІГ­Г®
 }
 
 void new_student(char *filepath, char *lesson_ref)
@@ -450,7 +450,7 @@ void new_classes(char *mainpath)
     gets(filename);
     filename_check(filename);
     if(!create_folder(filepath,filename))
-    {printf("There is such a class\n"); new_classes(mainpath);}  /// провери дали съществува напр: 12б = 12 б = 12Б = 12 Б
+    {printf("There is such a class\n"); new_classes(mainpath);}  /// ГЇГ°Г®ГўГҐГ°ГЁ Г¤Г Г«ГЁ Г±ГєГ№ГҐГ±ГІГўГіГўГ  Г­Г ГЇГ°: 12ГЎ = 12 ГЎ = 12ГЃ = 12 ГЃ
     add_classes(filename);
     strcpy(lpath,filepath);
     strcat(filename,".data");

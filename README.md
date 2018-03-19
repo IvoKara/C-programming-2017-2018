@@ -19,6 +19,12 @@
    <li>
        See optut of the program
     
-    ./<exec file>
+    ./<exec file> <arguments if any>
    </li>
-</ul>    
+</ul>   
+
+<h3>Makefiles</h3>
+<ul>
+   <li>
+   </li>
+</ul>

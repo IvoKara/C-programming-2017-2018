@@ -5,7 +5,7 @@ a.out: main.o shellsort.o insertion_sort.o
 	rm *.o
 	./a.out
 
-main.o: main.c shellsort.h insertion_sort.h
+main.o: main.c 
 	$(GCCL) -c main.c
 	
 shellsort.o: shellsort.c shellsort.h

@@ -30,5 +30,10 @@
       TAB <commands>
 <ul>
    <li>
+      Constants
+      
+      GCCL=gcc -Wall -pedantic -std=c11
+      #some code here
+      $(GCCL) file.c
    </li>
 </ul>

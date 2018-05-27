@@ -3,23 +3,27 @@
 <ul>
    <li>
        Compile
-       
-    gcc -Wall -pedantic -std=c11 <C files> 
+      
+```gcc -Wall -pedantic -std=c11 <C files>```
+      
    </li>
    <li>
        Rename executable file
     
-    gccl -o <new name> <C files>
+```gccl -o <new name> <C files>```
+
    </li>
    <li>
        Compile to object file
     
-    gccl -c <C files>
+```gccl -c <C files>```
+
    </li>
    <li>
        See optut of the program
     
-    ./<exec file> <arguments if any>
+```./<exec file> <arguments if any>```
+
    </li>
 </ul>   
 

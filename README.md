@@ -4,7 +4,9 @@
    <li>
        Compile
       
-```gcc -Wall -pedantic -std=c11 <C files>```
+```  
+ gcc -Wall -pedantic -std=c11 <C files>
+```
       
    </li>
    <li>
